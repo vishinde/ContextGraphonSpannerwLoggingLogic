@@ -14,7 +14,7 @@ warnings.filterwarnings("ignore", category=UserWarning, module="google_genai")
 os.environ["GOOGLE_CLOUD_SPANNER_ENABLE_METRICS"] = "false"
 os.environ["OTEL_SDK_DISABLED"] = "true"
 
-PROJECT_ID = "bq-project-402513"
+PROJECT_ID = "xxx"
 INSTANCE_ID = "graph"
 DATABASE_ID = "supportgraph"
 
